@@ -33,7 +33,8 @@ function render(page) {
 // See https://github.com/flatiron/director
 var routes = {
   '/': () => render(require('./pages/Index.jsx')),
-  '/privacy': () => render(require('./pages/Privacy.jsx'))
+  '/privacy': () => render(require('./pages/Privacy.jsx')),
+  '/contacts': () => render(require('./pages/Contacts.jsx'))
 };
 
 // Initialize a router

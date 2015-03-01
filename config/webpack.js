@@ -30,6 +30,7 @@ module.exports = function(release) {
     cache: !release,
     debug: !release,
     devtool: false,
+    bail: true,
 
     stats: {
       colors: true,

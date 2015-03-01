@@ -44,6 +44,7 @@ var DefaultLayout = React.createClass({
             <p className="text-muted">
               <span>© KriaSoft</span>
               <span><Link to="/">Home</Link></span>
+              <span><Link to="/contacts">Contacts</Link></span>
               <span><Link to="/privacy">Privacy</Link></span>
             </p>
           </div>
